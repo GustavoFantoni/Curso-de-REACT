@@ -6,9 +6,6 @@ function HelloWorld() {
         <div className="Capsula">
             <p>Primeiro componente</p>
             <Text />
-            <Text />
-            <Text />
-            <Text />
         </div>
     )
 }

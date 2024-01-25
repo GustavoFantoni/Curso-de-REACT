@@ -1,16 +1,18 @@
 import './App.css';
 import HelloWorld from './Components/HelloWorld';
+import MyName from './Components/MyName';
+import Person from './Components/Person';
+
 
 function App() {
 
-  function soma(a, b) {
-    return a + b
-  }
-
+  const nome = "João";
   return (
     <div className="App">
         <HelloWorld />
-        <p> soma= {soma(5, 5)}</p>
+        <MyName name="Gustavo"/>
+        <MyName name={nome} />
+        <Person nome="Rodrigo" idade="28" profissao="Dev-Sênior"/>
     </div>
   );
 }
