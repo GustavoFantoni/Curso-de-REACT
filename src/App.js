@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './Components/HelloWorld';
 
 function App() {
 
@@ -8,9 +9,7 @@ function App() {
 
   return (
     <div className="App">
-        <p>
-        Hello, world!
-        </p>
+        <HelloWorld />
         <p> soma= {soma(5, 5)}</p>
     </div>
   );
